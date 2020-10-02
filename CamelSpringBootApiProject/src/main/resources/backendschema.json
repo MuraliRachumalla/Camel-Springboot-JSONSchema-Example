@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "backend-schema",
+  "properties": {
+    "backendId": {
+       "type": "integer"
+    },
+    "backendName": {
+       "type": "string"
+    },
+    "backendPrice": {
+       "type": "number"
+    }
+  },
+  "required": [
+    "backendName",
+    "backendId",
+    "backendPrice"
+  ],
+  "type": "object"
+}

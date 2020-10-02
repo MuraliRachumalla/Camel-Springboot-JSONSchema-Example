@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "frontend-schema",
+  "properties": {
+    "id": {
+       "type": "integer"
+    },
+    "name": {
+       "type": "string"
+    },
+    "price": {
+       "type": "number"
+    }
+  },
+  "required": [
+    "name",
+    "id",
+    "price"
+  ],
+  "type": "object"
+}
